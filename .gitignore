@@ -1,0 +1,44 @@
+# ==============================================================================
+# NetworkAnalyzer .gitignore - Build Artifacts & System Files
+# ==============================================================================
+
+# CMake & Build Artifacts
+build/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+CTestTestfile.cmake
+Testing/
+
+# Compiled Executables & Test Binaries
+NetworkAnalyzer
+run_tests
+test_*
+
+# Object Files & Static/Dynamic Libraries
+*.o
+*.obj
+*.so
+*.a
+*.dylib
+
+# IDE & Editor Specific Files
+.vscode/
+.idea/
+*.swp
+*.swo
+.DS_Store
+
+# Logs & Temporary Files
+*.log
+*.pcap
+
+
+
+
+
+
+
